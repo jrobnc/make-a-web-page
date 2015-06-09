@@ -1,0 +1,166 @@
+/* This is a CSS comment.*/
+*{
+	-webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+	background-color: #323232;
+	font-family: Helvetica;
+	/* color: white; */
+
+}
+.all {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* This is the Table of Contents */
+.tableofcontents{
+    background-color: #97282C;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+    width: 300px;
+    padding: 10px;
+ height: 50%;
+margin-top: 10px;
+margin-bottom: 0px;
+margin-left: auto;
+
+float: right;
+   
+}
+.headerbar { 
+	background-color: #97282C;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+margin-top: 0px;
+margin-bottom: 20px;
+margin-left: 0%;
+margin-right: 0%;
+height: 175px;
+    min-width: 100% ;
+    padding-top: 10px;
+ 
+     }
+
+/* This is the lesson number */
+.header { 
+	background-color: #97282C;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+margin-top: 20px;
+margin-bottom: 10px;
+
+margin-right: 10px;
+height: auto;
+float: left;
+    width: 25% ;
+    padding: 10px;
+    min-width: 80px;
+    
+
+
+    
+ 
+     }
+     /* These are the content containers */
+.content {
+    background-color: #97282C;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    
+    width: 40%;
+ margin-top: 20px;
+margin-bottom: 5px;
+
+margin-left: auto;
+margin-right: auto;
+    padding: 10px;
+   
+
+    
+   /* display: flex; */     
+}
+/* This subdivides the content containers based on topic */
+.topic {
+	background-color: #C94C4C;
+    padding: 4px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+ 
+    
+}
+/* This creates emphasize for the individal topic titles */
+.titles {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: #000000;
+    
+}
+/* This adds a style to the text under each topic */
+.notes {
+    font-weight: lighter;
+    margin: 8px;
+     
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #ffffff;
+
+}
+/* Secondary heading */
+h2 {
+    margin: 10px;
+
+}
+/* Third Heading type */
+h3 {
+font-weight: bold;
+font-size: small;
+}
+
+/* Italic div type */
+.italic {
+    font-style: italic;
+}
+/* Bold Div type */
+.bold {
+    font-weight: bold;
+}
+/* Link Color */
+a {
+	color: #ffffff;
+}
+/* list parameters */
+li {
+
+}
+
+
+/* This is the footer */
+.footer {
+	 background-color: #97282C;
+	 text-align: center;
+    border-radius: 5px;
+    color: white;
+    min-width: 100%;
+  
+   margin-top: 20px;
+    padding: 5px;
+   
+    
+}
+

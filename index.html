@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+<html><!-- HTML Page -->
+  <head><!-- Here the header begins allowing us to specify a page title for now and calling CSS pages -->
+   <meta charset="UTF-8"><!-- added based on warning from HTML Validation check -->
+<!-- call css style sheet -->
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- Actually choosing a "style" or layout for a website has been my hardest decision when using CSS! -->
+    <title> Udacity Notes Webpage</title>
+  </head>
+<body><!-- The real content starts here. Generally speaking this is what we "see" --> 
+<div class="all">
+<div class="headerbar"><h1>This is my webpage for the Udacity Intro to programming nanodegree.
+</h1>Current Status: Waiting for feedback on Stage 1</div>
+
+<div class="tableofcontents">
+  <h2 id="toc">Table of Contents</h2>
+  <!-- initiate list and then list items in the table of conents -->
+
+  <ol>
+    <li><a href="#lesson1">Lesson 1: The Basics</a></li>
+    <li><a href="#lesson2">Lesson 2: The Structure</a></li>
+    <li><a href="#lesson3">Lesson 3: The CSS</a></li>
+  </ol>
+  </div>
+
+
+</div>
+<article id="lesson1">
+<div class="header">
+  <h2>Lesson 1</h2><br><a href="#toc">Back to top</a></div>
+  <div class="content">
+  <div class="topic">
+   <div class="titles">
+      The World Wide Web - WWW 
+    </div>
+      <div class="notes">
+        <p>
+    The web is a bunch of computers that communicate with each other via the Internet. When a person goes to a web page their computer sends a HTTP Request to a server. The server finds the appropriate HTML document and sends it back to the user's computer where a web browser interprets the page and displays it on the user's screen.
+        </p>
+      </div>
+    </div>
+    <div class="topic">
+        <div class="titles">HTML 
+        </div>
+     <div class="notes">
+       <p>HTML stands for <em><b>Hypertext Markup Language.</b></em> HTML documents form the majority of the content on the web. HTML documents contain text content which describes "what you see" and markup which describes "how it looks". This video gives a good overview.</p>
+      </div>
+    </div>
+    <div class="topic">
+        <div class="titles"> Tags & Elements (inline vs block)
+        </div>
+      <div class="notes"><p>HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them </p>
+      </div>
+    </div>
+    <div class="topic">
+ <div class="titles">Computers are stupid: 
+    </div>
+     <div class="notes"> <p> This refers to the idea that computers only do what they are "told." This means when coding explicit instructions need to be given for any scenario that may be encountered, luckily coding frameworks establish most of these "basic" instructions so they don't constantly need to be repeated.</p>
+      </div>
+    </div>
+    </div>
+    </article>
+    <article id="lesson2">
+  <div class="header">
+  <h2>Lesson 2</h2><br><a href="#toc">Back to top</a>
+  </div>
+  <div class="content">
+    <div class="topic">
+    <div class="titles">The Language of the Web - HTML/CSS/Javascript 
+    </div>
+    <div class="notes">
+     <p> Lesson 2 introduces the structure of web pages. All pages are composed of HTML elements to establish their underlying "structure." Additionally web pages can utilize CSS or <b><em>Cascading Style Sheets or Javascript.  </em></b> </p>
+     </div>
+      </div>
+      <div class="topic">
+        <div class="titles">CSS - Cascading Style Sheets
+        </div>
+        <div class="notes"><p>CSS is the paint on the walls. Through minimal amounts of code using CSS you can quickly transform the style of a website. CSS is stored in (dot).css files. Specifically this is referenced as increased maintainability.
+        </p>
+        </div>
+      </div>
+<div class="topic">
+        <div class="titles">JS - JavaScript
+        </div>
+        <div class="notes"><p>Java-script is the "garage door opener" for this web "home" we've been referencing. JS is a mechanism to accomplish many things rather easily. A prime example would be using a simple JS technique to allow the user to change the theme of a web page by loading other CSS properties. <!-- Didn't include this at this point since we aren't dealing with Javascript yet --></p>
+        </div>
+        </div>
+       
+      <div class="topic">
+      <div class="titles">Dont be a Square
+      </div>
+      <div class="notes"><p>All elements in HTML are rectangular in shape, even if they don't appear that way visually. The web browser builds/interprets a tree like structure of every page through utilization of the <b><em>Document Object Model (DOM).</em></b> </p>
+      </div>    
+      </div>
+    </div>
+    </article>
+    <article id="lesson3">
+    <div class="header">
+    <h2>Lesson 3</h2><br><a href="#toc">Back to top</a>
+    </div>
+    <div class="content">
+     <div class="topic">
+    <div class="titles">Avoid Repetition
+    </div>
+    <div class="notes"><p>Avoiding repetition in coding is essential to ensure ease of use and troubleshooting. Using portions of code to control multiple areas will expedite the customization process as well as make it much easier for others to interpret your code. This is especially possible through the use of <em>CSS</em></p> 
+</div>
+</div>
+</div>
+</article>
+    <!-- I put in this link to show use of the <a> tag. Also  I have general knowledge and understanding of HTML but it has been quite a long time since I put it to use, especially without the assistant of some sort of editor. -->
+  <div class="footer">
+    <p> You can also find me on the web at <br><a href="http://www.jodydavidroberts.com">My personal web page</a>
+    </p>
+    </div>
+    
+  </body>
+</html>
+ 
